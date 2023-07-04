@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/readBtn"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:drawableTop="@mipmap/read_book"
+        android:background="@drawable/mybutton"
+        android:text="Read"/>
+
+    <Button
+        android:id="@+id/calBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:drawableTop="@mipmap/calculator"
+        android:background="@drawable/mybutton"
+        android:text="calculator"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/currencyBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/indian_currency"
+            android:background="@drawable/mybutton"
+            android:text="currency detection"/>
+
+        <Button
+            android:id="@+id/faceDetectBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/face_recognition"
+            android:background="@drawable/mybutton"
+            android:text="face recognition"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/expressionBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/expression_detection"
+            android:background="@drawable/mybutton"
+            android:text="expression detection"/>
+
+        <Button
+            android:id="@+id/timeDateBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/date_time"
+            android:background="@drawable/mybutton"
+            android:text="time and date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3">
+
+        <Button
+            android:id="@+id/weatherBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/weather"
+            android:background="@drawable/mybutton"
+            android:text="weather" />
+
+        <Button
+            android:id="@+id/batteryBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton"
+            android:drawableTop="@mipmap/battery"
+            android:text="battery" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout4">
+
+        <Button
+            android:id="@+id/locationBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton"
+            android:drawableTop="@mipmap/location"
+            android:text="location" />
+
+        <Button
+            android:id="@+id/bankTransfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton"
+            android:drawableTop="@mipmap/bank_transfer"
+            android:text="bank transfer" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_below="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/phoneTransferBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/phone_transfer"
+            android:background="@drawable/mybutton"
+            android:text="phone transfer"/>
+
+        <Button
+            android:id="@+id/objectDetectionBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:drawableTop="@mipmap/object_detection"
+            android:background="@drawable/mybutton"
+            android:text="object detection"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_below="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/voiceInput"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/what1"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+          />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:paddingTop="10dp"
+            android:drawableTop="@mipmap/exit"
+            android:background="@drawable/mybutton"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

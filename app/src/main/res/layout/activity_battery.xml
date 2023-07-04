@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/parent"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".BatteryActivity"
+
+    android:gravity = "center"
+    android:orientation = "vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:text="@string/batter_percentage"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@mipmap/icon_battery"
+        android:padding="100dp"
+        android:textSize="45dp" />
+
+</LinearLayout>

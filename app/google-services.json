@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777626121340",
+    "project_id": "emotion-detection-5db2b",
+    "storage_bucket": "emotion-detection-5db2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777626121340:android:68d92396ea77d7fc2a05f9",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.blind.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777626121340-qrtqlol630vhmtvq0rqt5ol4qf3o5ta8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgaKT4QIOLeMMq6tpS1nRBi4n1CJIK-7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777626121340-qrtqlol630vhmtvq0rqt5ol4qf3o5ta8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

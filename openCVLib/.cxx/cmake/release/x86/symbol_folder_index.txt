@@ -1,0 +1,1 @@
+C:\Users\seranya acharya\MyVisuallyApp\android\openCVLib\build\intermediates\cmake\release\obj\x86

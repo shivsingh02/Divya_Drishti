@@ -1,0 +1,3 @@
+C:/Users/ranjan/AndroidStudioProjects/Android Projects/projectZip/projectZip/MyVisuallyApp/android/openCVLib/.cxx/Debug/5y344e55/x86_64/CMakeFiles/opencv_jni_shared.dir
+C:/Users/ranjan/AndroidStudioProjects/Android Projects/projectZip/projectZip/MyVisuallyApp/android/openCVLib/.cxx/Debug/5y344e55/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/ranjan/AndroidStudioProjects/Android Projects/projectZip/projectZip/MyVisuallyApp/android/openCVLib/.cxx/Debug/5y344e55/x86_64/CMakeFiles/rebuild_cache.dir
